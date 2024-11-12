@@ -1,6 +1,6 @@
-const getUserNames = (users) => console.log(users);
+const getUserNames = (users) => users.map(user => user.name);
 console.log(
-    getUserNames = ([
+    getUserNames([
     {
       name: "Moore Hensley",
       email: "moorehensley@indexia.com",
@@ -38,24 +38,3 @@ console.log(
     },
   ])
   ); // ["Moore Hensley", "Sharlene Bush", "Ross Vazquez", "Elma Head", "Carey Barr", "Blackburn Dotson", "Sheree Anthony"]
-  
-  
-
-
-// const getUserNames = 
-//     // users.filter((user) => user.name);
-
-
-
-// console.log(getUserNames(getUserNames()))
-
-
-
-
-
-
-
-
-
-
-
