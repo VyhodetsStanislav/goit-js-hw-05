@@ -1,3 +1,11 @@
+const getUsersWithFriend = (users, friendName) => {
+  let friends =[];
+  friends = users.filter((user) => user.friends.includes(friendName));
+  // friends = users;
+  return friends;
+}
+
+
 const allUsers = [
     {
       name: "Moore Hensley",
